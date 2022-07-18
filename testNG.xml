@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RestAssuredSelfThought">
+    <listeners>
+        <listener class-name="utilities.Listeners"/>
+    </listeners>
+    <test thread-count="1" name="Personal Media Backend Test">
+        <classes>
+            <class name="testcases.login" />
+        </classes>
+    </test> <!-- Test -->
+
+
+</suite><!-- suite -->
