@@ -1,0 +1,14 @@
+{
+  "age": 0,
+  "_id": "61f1e65a739af600164a733d",
+  "name": "prod",
+  "email": "prod@prod.com",
+  "secret": "prod",
+  "address": "",
+  "dob": "June, 5 1993",
+  "hobbies": "",
+  "events": "",
+  "createdAt": "2022-01-27T00:24:58.972Z",
+  "updatedAt": "2022-07-18T23:53:31.718Z",
+  "__v": 239
+}

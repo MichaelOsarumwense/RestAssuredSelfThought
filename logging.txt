@@ -1,44 +1,40 @@
-Request method:	POST
-Request URI:	https://backend-personal-media.herokuapp.com/users/login
+Request method:	GET
+Request URI:	https://backend-personal-media.herokuapp.com/users/me
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NTgxOTA0MDd9.yE1kZ_i4XoNPC1YAj86Dkx3x2on4DoDQ51xgeQ3q5RI
+				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "email": "prod@prod.com",
-    "password": "adminuser"
-}
+Body:			<none>
 HTTP/1.1 200 OK
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 412
-Etag: W/"19c-1jpenjIxikFvAau3K0jihUxCtjE"
-Date: Sun, 10 Jul 2022 19:52:10 GMT
+Content-Length: 243
+Etag: W/"f3-u3+IwM5AZJD3vBmzWlDC53SrAQg"
+Date: Tue, 19 Jul 2022 00:26:49 GMT
 Via: 1.1 vegur
 
 {
-    "user": {
-        "age": 0,
-        "_id": "61f1e65a739af600164a733d",
-        "name": "prod",
-        "email": "prod@prod.com",
-        "secret": "prod",
-        "address": "",
-        "dob": "June, 5 1993",
-        "hobbies": "",
-        "events": "",
-        "createdAt": "2022-01-27T00:24:58.972Z",
-        "updatedAt": "2022-07-10T19:52:10.262Z",
-        "__v": 203
-    },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NTc0ODI3MzB9.Wun4aZkcHXNJddyb-NkLbbfYR2snap43bScBhbQqnwo"
+    "age": 0,
+    "_id": "61f1e65a739af600164a733d",
+    "name": "prod",
+    "email": "prod@prod.com",
+    "secret": "prod",
+    "address": "",
+    "dob": "June, 5 1993",
+    "hobbies": "",
+    "events": "",
+    "createdAt": "2022-01-27T00:24:58.972Z",
+    "updatedAt": "2022-07-19T00:26:48.002Z",
+    "__v": 249
+}
+pXVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NTgxOTA0MDd9.yE1kZ_i4XoNPC1YAj86Dkx3x2on4DoDQ51xgeQ3q5RI"
 }

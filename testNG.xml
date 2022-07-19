@@ -7,6 +7,7 @@
     <test thread-count="1" name="Personal Media Backend Test">
         <classes>
             <class name="testcases.login" />
+            <class name="testcases.GET_USERS" />
         </classes>
     </test> <!-- Test -->
 
