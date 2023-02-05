@@ -33,6 +33,9 @@ public class Listeners extends TestListenerAdapter {
     public void onTestSuccess(ITestResult result){
         test=extent.createTest(result.getName());
         test.log(Status.PASS, "Test Case Passed " + result.getName());
+        test.log(Status.PASS, "Test Case Passed " + result.getStatus());
+        test.log(Status.PASS, "Test Case Passed " + result.getMethod());
+        test.log(Status.PASS, "Test Case Passed " + result.getTestContext());
     }
 
     public void onTestFailure (ITestResult result){

@@ -1,40 +1,45 @@
 Request method:	GET
-Request URI:	https://backend-personal-media.herokuapp.com/users/me
+Request URI:	https://backend-personal-media.onrender.com/users/me
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NTgxOTA0MDd9.yE1kZ_i4XoNPC1YAj86Dkx3x2on4DoDQ51xgeQ3q5RI
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NzU2MjU4NDJ9.j4fK3PkR83194BN5ig81mlBF-H-x78mTG2v0q1h_ypc
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
+Date: Sun, 05 Feb 2023 19:37:23 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 243
-Etag: W/"f3-u3+IwM5AZJD3vBmzWlDC53SrAQg"
-Date: Tue, 19 Jul 2022 00:26:49 GMT
-Via: 1.1 vegur
+Content-Length: 215
+Connection: keep-alive
+CF-Ray: 794e19b2ec6976e3-LHR
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+ETag: W/"100-kFUAIk/RNjJ2iGcU/9QEHrBK4F8"
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+x-powered-by: Express
+x-render-origin-server: Render
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 {
     "age": 0,
     "_id": "61f1e65a739af600164a733d",
-    "name": "prod",
+    "name": "John Mellow",
     "email": "prod@prod.com",
     "secret": "prod",
-    "address": "",
-    "dob": "June, 5 1993",
+    "address": "Turkey",
+    "dob": "June, 5 1995",
     "hobbies": "",
     "events": "",
     "createdAt": "2022-01-27T00:24:58.972Z",
-    "updatedAt": "2022-07-19T00:26:48.002Z",
-    "__v": 249
+    "updatedAt": "2023-02-05T19:37:23.055Z",
+    "__v": 319
 }
-pXVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NTgxOTA0MDd9.yE1kZ_i4XoNPC1YAj86Dkx3x2on4DoDQ51xgeQ3q5RI"
+XVCJ9.eyJfaWQiOiI2MWYxZTY1YTczOWFmNjAwMTY0YTczM2QiLCJpYXQiOjE2NzU2MjU4NDJ9.j4fK3PkR83194BN5ig81mlBF-H-x78mTG2v0q1h_ypc"
 }

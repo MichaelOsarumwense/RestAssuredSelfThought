@@ -11,7 +11,7 @@ public class FileToString {
 
         String string = String.format("src/test/java/payload/%s", jsonFileName);
         File file = new File(string);
-        String loginBody = FileUtils.readFileToString(file, "UTF-8");
-        return loginBody;
+        String json = FileUtils.readFileToString(file, "UTF-8");
+        return json;
     }
 }

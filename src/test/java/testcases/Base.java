@@ -1,12 +1,12 @@
 package testcases;
 
+import com.google.gson.JsonObject;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeTest;
 import utilities.FileToString;
 import utilities.JsonToString;
@@ -23,7 +23,7 @@ public class Base {
 
     @BeforeTest
     public void setup() {
-        RestAssured.baseURI = "https://backend-personal-media.herokuapp.com";
+        RestAssured.baseURI = "https://backend-personal-media.onrender.com";
     }
 
     public RequestSpecification BodyRequest(String requestBody) throws IOException {
@@ -49,8 +49,18 @@ public class Base {
         return response;
     }
 
+    public String auth() {
+        JsonObject authJson = new JsonObject();
+        authJson.addProperty("email", System.getenv("email"));
+        authJson.addProperty("password", System.getenv("password"));
+
+        System.out.println("password is " + System.getenv("password"));
+
+        return authJson.toString();
+    }
+
     public String  Token() throws IOException {
-        requests = BodyRequest(requestBody.FileConvert("login.json"));
+        requests = BodyRequest(auth());
 
         response =  Response("POST", "/users/login")
                 .then()
